@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" ctype="Workspace" />
   <MonoDevelop.Ide.Workbench ActiveDocument="txt2img/Main.cs" ctype="Workbench">
     <Files>
-      <File FileName="txt2img/Main.cs" Line="20" Column="47" />
+      <File FileName="txt2img/Main.cs" Line="20" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -77,6 +77,10 @@ namespace txt2img
 					if (slot_counter == 4) {
 						refToClass.label4 = read;
 						refToClass.writeImage(refToClass.FileNameBase + file_counter + ".png", refToClass.label1, refToClass.label2, refToClass.label3, refToClass.label4);
+						refToClass.label1 = "";
+						refToClass.label2 = "";
+						refToClass.label3 = "";
+						refToClass.label4 = "";
 						slot_counter = 1;
 						file_counter++;
 						continue;
@@ -84,6 +88,7 @@ namespace txt2img
 					
 					
 				} while (read != null);
+				refToClass.writeImage(refToClass.FileNameBase + file_counter + ".png", refToClass.label1, refToClass.label2, refToClass.label3, refToClass.label4);
             	tr.Close();
 			}
 		}
@@ -94,7 +99,7 @@ namespace txt2img
 			MainClass refToClass = new MainClass();
 			
 			// Write Debug message to Console
-			Console.WriteLine("DEBUG: " + filename + "," + field1 + "," + field2 + "," + field3);
+			Console.WriteLine("DEBUG: " + filename + "," + field1 + "," + field2 + "," + field3 + "," + field4);
 			
 			// Set the DPI of the bitmap
 			refToClass.objBitmap.SetResolution(300, 300);
