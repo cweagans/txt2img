@@ -18,9 +18,6 @@ namespace txt2img
 		private SolidBrush objBrushForeColor = new SolidBrush(Color.FromArgb(0,0,0));
 		private SolidBrush objBrushBackColor = new SolidBrush(Color.FromArgb(255,255,255));
 		private string FileNameBase = "labelimage_";
-		private PointF objSlot1 = new PointF(5f, 15f);
-		private PointF objSlot2 = new PointF(5f, 60f);
-		private PointF objSlot3 = new PointF(5f, 110f);
 		private string label1 = "";
 		private string label2 = "";
 		private string label3 = "";
