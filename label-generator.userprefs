@@ -2,8 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" ctype="Workspace" />
   <MonoDevelop.Ide.Workbench ActiveDocument="txt2img/Main.cs" ctype="Workbench">
     <Files>
-      <File FileName="label-generator/Main.cs" Line="99" Column="7" />
-      <File FileName="txt2img/Main.cs" Line="79" Column="18" />
+      <File FileName="txt2img/Main.cs" Line="20" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

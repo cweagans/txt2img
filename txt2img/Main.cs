@@ -9,9 +9,6 @@ namespace txt2img
 	{
 		
 		private string file_path = "";
-		// private int ImageWidth = 72;
-		// private int ImageHeight = 144;
-		//private Bitmap objBitmap = new Bitmap(72, 144);
 		private Bitmap objBitmap = new Bitmap("base.png");
 		private Graphics objGraphics;
 		private Font objFont = new Font("Arial", 40, FontStyle.Bold, GraphicsUnit.Pixel);
